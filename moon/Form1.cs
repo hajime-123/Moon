@@ -10,7 +10,12 @@ namespace moon
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("bbb");
+            if (this.Visible)
+            {
+                MessageBox.Show("bbb");
+                MessageBox.Show("2.0");
+            }
+            
         }
     }
 }
